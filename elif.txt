@@ -1,0 +1,16 @@
+#uso do elif 
+
+meta = 100
+meta_extra = 200
+feito = int(input("digite quanto voce ganhou : "))
+
+if meta < feito:
+    print("para bens voce consegui ultrapassar as especatvas")
+    bons= feito * 0.002
+    print(f"sua recompensa sera de {bons}")
+elif meta > feito:
+     print(f"voce nao consegui mas uma coisa aqui para te ajudar {feito}")
+     bons = feito * 0.001
+     print(f"sua recompensa e de {bons} ")       
+elif meta == feito: 
+    print("voce nao atingiu sua meta mas esta muito perto")
